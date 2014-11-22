@@ -65,7 +65,7 @@ def main():
         Settings.REVIEWS_COLLECTION]
     reviews_cursor = reviews_collection.find()
     count = reviews_cursor.count()
-    workers = 4
+    workers = 8
     batch = count / workers
 
     jobs = []

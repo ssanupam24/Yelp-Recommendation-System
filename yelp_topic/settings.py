@@ -2,7 +2,7 @@ class Settings:
     def __init__(self):
         pass
 
-    DATASET_FILE = '/home/ish/DataScience/topics/dataset/yelp_dataset_challenge_academic_dataset'
+    DATASET_FILE = '/home/anupam/Documents/Data_Science/Data Science/topics/dataset/yelp_dataset_challenge_academic_dataset'
     MONGO_CONNECTION_STRING = "mongodb://localhost:27017/"
     REVIEWS_DATABASE = "Dataset_Challenge_Reviews"
     TAGS_DATABASE = "Tags"
